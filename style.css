@@ -38,8 +38,10 @@ input {
     color: hsl(223, 100%, 88%);
     position: relative;
     left: -70px;
-    width: 270px;
+    width: 180px;
 }
+input:focus {
+    outline:none;
 .notice {
     border-color: hsl(223, 87%, 63%);
     background-color: hsl(223, 87%, 63%);
