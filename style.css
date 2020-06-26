@@ -33,11 +33,12 @@ span {
     border-color:hsl(223, 100%, 88%);
     text-align: start;
 }
-p#email {
+input {
     margin: 0;
     color: hsl(223, 100%, 88%);
     position: relative;
     left: -70px;
+    width: 270px;
 }
 .notice {
     border-color: hsl(223, 87%, 63%);
