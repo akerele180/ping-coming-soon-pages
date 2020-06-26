@@ -34,6 +34,7 @@ span {
     text-align: start;
 }
 input {
+    border: none;
     margin: 0;
     color: hsl(223, 100%, 88%);
     position: relative;
@@ -42,6 +43,9 @@ input {
 input:focus {
     outline:none;
 }
+::-webkit-input-placeholder, :-ms-input-placeholder {
+       color: hsl(223, 100%, 88%);
+    }
 .notice {
     border-color: hsl(223, 87%, 63%);
     background-color: hsl(223, 87%, 63%);
